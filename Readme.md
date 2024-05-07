@@ -1,26 +1,26 @@
 # Server Backup planning
 
-# Why we need a back up
+## Why we need a back up
 
 - Disaster Recovery
 
 In the event of a disaster such as a hardware failure, cyber attack, or natural disaster, having a backup of your server can help you quickly restore your data and get your systems back up and running.
 
-— Data Loss Prevention
+- Data Loss Prevention
 
 Backing up your server helps prevent data loss due to accidental deletion or corruption of files. If your data is backed up regularly, you can easily restore any lost or corrupted files.
 
-— Business Continuity
+- Business Continuity
 
 Backing up your server ensures that your business operations can continue even in the event of a server failure. This helps minimize downtime and ensures that critical business functions can continue without interruption.
 
-— Peace of Mind
+- Peace of Mind
 
 Knowing that your data is backed up can provide peace of mind and reduce stress. You can rest assured that your data is safe and can be easily restored if needed.
 
 ---
 
-# Resources we need to back up
+## Resources we need to back up
 
 ### Git Repository
 
@@ -38,7 +38,7 @@ Knowing that your data is backed up can provide peace of mind and reduce stres
 
 ---
 
-# Cycle
+## Cycle
 
 - every day (cron job at every night 2230)
     - zip all gitlab respositories and sync with local git repository
