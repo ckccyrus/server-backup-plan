@@ -26,15 +26,20 @@ Knowing that your data is backed up can provide peace of mind and reduce stres
 
 - all coding is frontend member important resource
 
+[gitlab-daily-backup](https://github.com/ckccyrus/gitlab-daily-backup)
+
 ### Docker volumes
 
 - Volumes are used to store data that needs to be shared between containers, or data that needs to persist even if the container is removed
 - mysql database, jenkins home etc.
 
+[volume-backup](https://github.com/ckccyrus/volume-backup)
+
 ### Webserver volume
 
-- the preview server file complied form jenkins project
-- preview gi, gc
+- the middleman, frontend tool hosted on MAMP in webServer Volume folder
+
+[volume-backup](https://github.com/ckccyrus/volume-backup)
 
 ---
 
@@ -52,3 +57,5 @@ Knowing that your data is backed up can provide peace of mind and reduce stres
     - time machine
 
 ![backup_plan.png](./readme/backup_plan.png)
+
+---
